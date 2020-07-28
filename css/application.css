@@ -1,0 +1,1491 @@
+
+   /*make all images responsive by default
+  img {
+    @extend .img-fluid;
+    margin: 0 auto;
+  }
+   override for the 'Home' navigation link
+  .navbar-brand {
+    font-size: inherit;
+    }
+ 
+   THESE ARE EXAMPLES YOU CAN MODIFY
+   create your own classes
+   to make views framework-neutral
+  .column {
+    @extend .col-md-6;
+    text-align: center;
+  }
+  .form {
+    @extend .col-md-6;
+  }
+  .form-centered {
+    @extend .col-md-6;
+    text-align: center;
+  }
+  .submit {
+    @extend .btn;
+    @extend .btn-primary;
+    @extend .btn-lg;
+  }
+ 
+   apply styles to HTML elements
+   to make views framework-neutral
+  .main {
+    @extend .container;
+    margin-top: 30px;  accommodate the navbar
+  }
+ 
+  section {
+    @extend .row;
+    margin-top: 20px;
+  }
+ 
+ 
+ */
+ 
+ /* Estilos de   página pegajosos   */
+ /*
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+ 
+ 
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here
+    height: 60px; Vertically center the text there
+    padding: 0px;
+    color: rgb(0, 0, 0);
+    width: 100%; 
+  }
+ */
+ /* Custom page CSS
+ -------------------------------------------------- */
+  /* Not required for template or sticky footer method. */
+ /*
+  body > .container {
+    padding: 10px 15px 0;
+  }
+ 
+  .footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+     
+  }
+ 
+  code {font-size: 80%;}
+ 
+ */
+ 
+ /* IMAGEN FONDO */
+
+.card-body {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: rgb(0,0,0);
+  text-align: center;}
+
+
+h1,h2,h3 {text-align: center;}
+
+.row{width: 100%;}
+
+ 
+html {font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;}
+ 
+body {padding: 0px;
+      margin: 0px;
+      overflow-x: hidden;
+      background-image: url('../img/nuevofondo.jpg') ;}
+ 
+ /*------------------------------------------------------------------------------------------*/
+ 
+
+
+
+/*   titulos en rol administrados */
+
+.contituloAdmin {border-bottom: 1px dotted #000;
+  border-top: 1px dotted #000;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+  background:rgba(255, 255, 255,0.7);}
+
+.tituloAdmin {margin: auto;
+width: 95%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;} 
+
+
+ /*  CONTENEDOR DE:  LETRERO BIENVENIDOS Y BOTON MATRICULARSE  */
+ 
+ .sobrenosotros {border-bottom: 1px dotted #000;
+                 border-top: 1px dotted #000;
+                 width: 100%;
+                 padding: 10px;
+                 margin-top: 30px;
+                 margin-bottom: 30px;
+                 background:rgba(255, 255, 255,0.7);}
+ 
+ .pregunta {margin: auto;
+            width: 95%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;} 
+ 
+ 
+ .separar {width:5%;
+           height: 100%;
+           display: flex;
+           align-items: center;}
+ 
+ .separar2 {width:95%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;}
+ 
+ .separarr {width:85%;
+            height: 100%;
+            display: flex;
+            align-items: center;}
+ 
+ .separar22 {width:15%;
+             height: 100%;
+             display: flex;
+             align-items: center;
+             justify-content: center;}
+ /*-----------------------------------------------------------------------------------------------*/
+ 
+ 
+  #pr {font-size: 16pt;
+       color: rgb(0, 0, 0)}
+ 
+ 
+  #ayc {width: 100%;
+        height: 300px}
+       
+       
+ 
+ /*  NOSOTROS PPAL  */
+ 
+ #article_mision {width: 50%;
+                  float: left;
+                  height: 50%;}
+ 
+ #titulo_mision {width: 100%;
+                 height: 25%;
+                 width: 80%;
+                 margin: auto;
+                 border-Bottom:2px dotted rgb(0,0,0) ;
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;}
+ 
+ #article_filosofia {width: 100%;
+                     height: 50%;}
+ 
+ #cont_infomision {width: 80%;
+                   /* background: rgb(255,255,255); */
+                   margin: 0px auto;
+                   height: 60%;
+                   border-radius: 10px;
+                   margin-top: 1%;
+                   display: flex;
+                   align-items: center;}
+ 
+ #cont_insta {width: 50%;
+              /* background: rgb(255,255,255); */
+              margin: 0px auto;
+              height: 20%;
+              border-radius: 10px;
+              display: block;
+              display: flex;
+              align-items: center;}
+ 
+ #letra_mision {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 15px;
+                color: rgb(0,0,0);
+                text-align: center;}
+ 
+ /*-----------------------------------------------------------------------------------------*/
+ 
+ 
+ 
+
+ 
+ /*  CONTENIDO  - PARVULOS  */
+ 
+ .contenido_ppal {width: 100%;
+                  display: flex;
+                  text-align: center;}
+ 
+ #articlee {width: 50%;
+            margin-top: 2%;
+            height: 500px;}
+ 
+ #parte_fotos {width: 50%;
+               margin-top: 2%;
+               height: 500px;}
+ 
+ #article_tres {width: 100%;
+                margin-top: 2%;}
+ 
+ #expli_nivel {width: 90%;
+               height: 90%;
+               margin-top: 5%;
+               font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+               font-size: 20px;
+               color: rgb(0,0,0);}
+ 
+ 
+ table {width: 70%;
+        border: none;
+        margin-top: 10%}
+ 
+ 
+ 
+ #celda {width: 50%;
+         border-bottom: 2px solid rgb(0,0,0);
+         border-top: none;
+         border-left: none;
+         border-right: none;}
+ 
+ /*--------------------------------------------------------------------------------*/
+ 
+ 
+
+ /*  CONTENIDO INICIO , PUBLICIDAD NIVELES- PRINCIPAL */ 
+ 
+ .foto-inicio{width: 100%;
+              text-align: center;}
+ 
+ .foto-inicio img{width: 70%;
+                  clip-path: circle(60% at center);
+                  margin-top: 20px;}
+ 
+ #cont_nivelesppal {width: 100%;
+                    display:flex;
+                    flex-direction:row;
+                    flex-wrap:nowrap;
+                    margin-top: 20px;}
+ 
+ 
+ #descri_nivel {width: 33.3%;}
+ 
+ #info-nivel_inicio {margin: auto;
+                     width: 90%;
+                     background: url('../img/fondooo.jpg');
+                     border-radius: 15px;
+                     height: 350px;}
+ 
+ 
+ 
+ .btn-leer {width: 100%;
+            height: 20%;
+            color: rgb(0,0,0);
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 17px;
+            display: flex;
+            align-items:center;
+            justify-content: center;}
+ 
+ 
+ .headeer {width: 100%;
+           height: 20%;
+           display: flex;
+           align-items:center;
+           justify-content: center;}
+ 
+ #body-jaj {width: 100%;
+            height: 60%;
+            border-bottom:  2px dotted rgb(0,0,0);
+            border-top: 2px dotted rgb(0,0,0);
+            display: flex;
+            align-items: center;}
+ 
+ #dentro-body {color: rgb(0,0,0);
+               font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+               font-size: 17px;
+               text-align: center;}
+ /*------------------------------------------------------------------------------------------------*/
+ 
+ 
+ 
+ 
+ /*  PUBLICIDAD SERVIVIOS , INICIO_PPAL */ 
+ 
+ #container-3servicios {padding: 0px;
+                        color: rgb(0, 0, 0);
+                        width: 100%;
+                        height: 550px;
+                        margin-top: 15px;
+                        display:flex;}
+ 
+ 
+ 
+ #columnas {height: 100%;}
+ 
+ #img-servicios {width: 100%;
+                 height: 50%;}
+ 
+ #img-Servicios {width: 100%;
+                 height: 48%;}
+ 
+ #foto_servi {width: 100%;
+              height: 100%;
+              border-radius: 10px;}
+ 
+ #enlace_publi {width: 100%;
+                height: 50%;
+                margin-top: 2%;
+                margin-bottom: 2%;
+                 display: flex;
+                 align-items:center;
+                 justify-content: center;}
+ 
+ 
+ .Descri_pres {width: 100%;
+               height: 30%;
+               border-top: 1px dotted black;
+                 display: flex;
+                 align-items:center;
+                 justify-content: center;}
+ 
+ /*----------------------------------------------------------------------------------------------------------*/
+ 
+ 
+ /*  CONTENIDO MATRICULAS    # INICIO PPAL */
+ 
+ .cont_infoMatri {width: 80%;
+                  border-top: 2px dotted rgb(0,0,0);
+                  margin: 0 auto;
+                  height: 80%;
+                  width: 80%;
+                  margin-top: 5%;}
+ 
+
+ #doc_matri {margin-top: 4%}
+ 
+ #li_matri {margin-bottom: 4%;}
+ 
+ .centraar {text-align: center;}
+ 
+ 
+ .pantalla {width: 100%;}
+ 
+ .img-acompañamiento{width: 100%;
+                     margin-bottom: 15px;
+                     margin-top: 15px;}
+ 
+ /*------------------------------------------------------------------------------------------------*/
+ 
+ 
+ 
+ /*  CONTENIDO  NOMBRE DE LAS LISTAS - ADMI */ 
+ 
+ .nombre_listas {border-bottom: 1px dotted #000;
+                border-top: 1px dotted #000;
+                width: 100%;
+                height: 77px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                background:rgba(255, 255, 255,0.7);}
+
+
+.cont-regis {margin: auto;
+            width: 95%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;} 
+
+
+
+/*-----------------------------------------------------------------------------------------*/ 
+
+
+ 
+ 
+ 
+ 
+ /* CONTENIDO GALERIA  DE FOTOS        # INICIO PPAL */
+ 
+ .caja-gale {width: 600px;
+            height: 400px;
+            margin: auto;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 20px;
+            animation: slider 5s infinite alternate;}
+ 
+ @keyframes slider {
+     from{
+         background-position: left center ;
+     }
+     to{
+         background-position: right center ;
+     }
+ }
+ 
+
+
+
+
+ .albunes{width: 90%;
+          height: auto;
+          margin: auto;}
+     
+     
+  .albunes-niveles{width: 100%;
+                   height: auto;}
+ 
+ 
+ .albunes .list-albunes {display: flex;
+                         flex-wrap:wrap;
+                         justify-content: center;}
+                          
+                         
+ .albunes .list-albunes li {text-align: center;
+                            margin-right: 25px;
+                            margin-bottom: 25px;
+                            margin-top: 25px;
+                            list-style: none;}
+                            
+                            
+ .albunes .list-albunes li .container-albun {position: relative;
+                                             width: 250px;
+                                             height: 300px;
+                                             border-bottom: 2px double #000;
+                                             transition: all 0.4s ease-out;}
+                                             
+                                             
+  /*para niveles - inicio principal    */
+     .albunes .list-albunes li .container-albun-niveles {position: relative;
+                                                         width: 300px;
+                                                         height: 350px;}
+   /*...................................... */
+  
+  
+ .albunes .list-albunes li .container-albun:hover {cursor: pointer;
+                                                   transform: translateY(-10px);
+                                                   box-shadow: 4px 30px 16px 0px  rgba(50,50,50, 0.45)}
+ 
+ 
+ .albunes .list-albunes li .container-albun img {border-radius: 15px; 
+                                                 position: relative;
+                                                 width: 300px;
+                                                 height: 300px;}
+ 
+ .albunes .list-albunes li .container-albun .info-albun {position: absolute;
+                                                         bottom: 0;
+                                                         width: 100%;
+                                                         height: 50px;
+                                                         display: flex;
+                                                         align-items: center;
+                                                         justify-content: center;}
+ 
+ 
+ .albunes .list-albunes li .container-albun .info-albun .nombre-albun {color: rgb(0,0,0);
+                                                                       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                                                       font-size: 17px;
+                                                                       float: left;}
+ 
+ /*----------------------------------------------------------------------------------------*/
+ 
+ 
+ 
+ 
+ /* Estilo tablas */ 
+
+
+
+/*fondo para montar la tabla*/
+ .table {text-align:center;
+         margin-top: 0px;}
+ 
+ .h1 {text-align:center;
+      display:flex;
+      justify-content:center;}
+ 
+ 
+ th {background: #81BEF7;
+     color: #fff;}
+ 
+ 
+ td { background:rgba(255, 255, 255,0.5); }
+ 
+ 
+ tr { width: 100%; }
+ 
+ tr:hover{color: #212529;
+          background-color: #000;}
+ 
+ /*------------------------------------------------------------------------*/
+ 
+ 
+ 
+ 
+     
+     
+    
+ 
+ .BANER {width: 100%;}
+ 
+ 
+
+  /*  MENU PRINCIPAL  */
+  
+  #borde_medio {border-right: 1px solid #000;
+                display: inline-block;
+                height: 100%;}
+  
+  
+  /*--------------------------------------------------------------------------------------*/
+ 
+  
+
+  
+ /* ESTILOS  - BARRA NAVEGACION  */
+ 
+ .barra_ppal { background: #bce8f1;
+ border: none}
+ 
+ /*------------------------------------------------------------------------------------*/
+ 
+ 
+  
+/*   
+  SIDEBAR PADRE DE FAMILIA 
+ 
+ 
+ .perfill{width: 100%;
+          height: 300px;
+          border-bottom:  1px solid #000;}
+ 
+ 
+ .sidebarr {width: 250px;
+            position: fixed;
+            height: 100%;
+            background: rgba(255,255,255,0.7);
+            outline: 1px solid  #000;
+            text-align: center;}
+ 
+ 
+ .sidebarr ul{list-style: none;
+             padding: 0px;
+             margin: 0px;}
+ 
+ .sidebarr li{outline: 1px solid #000;
+             transition: all 0.7s;}
+ 
+ 
+ .sidebarr li:hover{background: rgb(255,255,255);
+                   border-bottom:  10px solid #81BEF7;
+                   }
+ 
+        
+ .sidebarr a{color: #000;
+            display: block;
+            padding: 15px;
+            }
+ 
+ .sidebarr a:hover {text-decoration: none;}
+
+ --------------------------------------------------------------------------------------*/
+  
+  
+ 
+ /*  ESTILO BOTON PREDETERMINADO COLOR AZUL (HOVER-FOCUS)   */
+ 
+ 
+ .botonNuevo{outline:none;
+             border:solid 1px #81BEF7;
+             background: #81BEF7;
+             color: #fff;
+             font-size:18px;
+             font-weight: bold;
+             -webkit-transition:all 200ms ease;
+             -o-transition:all 200ms ease;
+             transition:all 200ms ease;}
+ 
+ 
+
+ .botonNuevo:hover{ background: #81BEF7;
+                    color: #fff;
+                    border:solid 2px #fff;
+                    border-radius: 10px;}
+ 
+ .botonNuevo:focus{outline:none;
+                   background: #81BEF7;
+                   color: #fff;
+                   border:solid 1px #fff;}
+ 
+ /*--------------------------------------------------------------------------------------------*/
+ 
+ 
+ 
+ /*  CONTENIDO SERVICIOS EN GENERAL */
+ 
+ .mainservicios{padding: 15px;
+                margin: 0 auto;
+                width: 95%;
+                background: rgb(255,255,255) ;
+                border-radius: 15px;
+                border: 2px solid #000;
+                margin-top: 3%;}
+ 
+ #cont_ {width: 50%;
+         height: 50%;
+         float: left;
+         }
+ 
+ 
+ /*----------------------------------------------------------------------------------*/
+ 
+ 
+ 
+
+ 
+ /*  SERVICIOS INGLES  */
+ 
+ 
+ #mitad_iz {width: 100%;
+            height: 50%;
+            background: red;
+            float: left;
+ }
+ 
+ 
+ #foto_ingles {width: 100%;
+               height: 100%}
+ 
+ /*------------------------------------------------------------------------------------------------------*/
+ 
+ 
+ 
+ 
+ /*  SERVICIOS  ALIMENTACIÓN  */  
+
+ 
+ 
+ .titu {width: 100%;
+        border: 2px solid rgb(0,0,0);
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;}
+ 
+ .con-img {width: 100%;
+           margin-top: 2%;
+           margin-bottom: 2%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           border-radius: 15px;
+           border: 2px solid rgb(0,0,0);}
+ 
+ 
+ .descri_ali {text-align: center;
+              margin: 0px auto;
+              width: 70%;
+              border: 2px dotted rgb(0,0,0);
+              border-radius: 20px;
+              
+                }
+ /*-------------------------------------------------------------------------------------------------------*/
+ 
+ 
+ 
+ 
+ /*   SERVICIOS BAILE */ 
+ 
+ 
+ #img {width: 100%;
+       height: 100%;
+       background: red;
+       border-radius: 15px;}
+ 
+ /*------------------------------------------------------------------------------------------------------------*/
+ 
+ 
+ 
+ 
+ /*contenido publico */
+ .main-publico {margin:0 auto;
+                width: 95%;
+                background: rgba(255,255,255,0.6) ;
+                border-radius: 15px;
+                padding:10px;}
+ /*---------------------------------------------------------------------------------------------*/
+ 
+ 
+ 
+ 
+ /* contenido admi  y modal acceder-registrarme */
+ 
+     .main { margin:0 auto;
+             width: 95%;
+             border-radius: 15px;
+            }
+     
+       
+     .main_espacio {margin:0 auto;
+                    width: 95%;
+                    background:transparent;
+                    border-radius: 15px;} 
+                    
+                 
+     .espacio_top  { margin-bottom: 30xp; }
+              
+ /*---------------------------------------------------------------------------------------------*/
+ 
+ 
+ 
+ 
+ /*  CONTENIDO DE UN MAIN A LA MITAD */ 
+ 
+ /*-----------------------------------------------------------------------------------------------*/
+ 
+ 
+
+ /* BARRA DE NAVEGACIÓN ADMINISTRADOR  
+ 
+ 
+   nav.sidebar, .main{
+                      -webkit-transition: margin 200ms ease-out;
+                      -moz-transition: margin 200ms ease-out;
+                      -o-transition: margin 200ms ease-out;
+                      transition: margin 200ms ease-out;
+                      }
+   
+   
+   nav.sidebar, .main_formu{
+     -webkit-transition: margin 200ms ease-out;
+       -moz-transition: margin 200ms ease-out;
+       -o-transition: margin 200ms ease-out;
+       transition: margin 200ms ease-out;
+   }
+   
+   
+ 
+   .main{
+     padding: 0px 10px 0 10px;
+   }
+   
+   .main_formu{
+     padding: 0px 10px 0 10px;
+   }
+ 
+ 
+ 
+ @media (min-width: 1200px) {
+ 
+     .main{
+       max-width: 100%;
+     }
+     
+     .main_formu{
+       max-width: 100%;
+     }
+ 
+ }
+ 
+ 
+  @media (min-width: 765px) {
+ 
+     .main{
+       position: absolute;
+       width: calc(100% - 40px); 
+       margin-left: 40px;
+       float: right;
+       top: 0;
+     }
+     
+     .main_formu{
+       position: absolute;
+       width: calc(100% - 40px); 
+       margin-left: 40px;
+       float: right;
+       top: 0;
+     }
+ 
+     nav.sidebar:hover + .main{
+       margin-left: 200px;
+     }
+     
+     nav.sidebar:hover + .main_formu{
+       margin-left: 200px;
+     }
+ 
+     nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+       margin-left: 0px;
+     }
+ 
+     nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+       text-align: center;
+       width: 100%;
+       margin-left: 0px;
+     }
+     
+     nav.sidebar a{
+       padding-right: 13px;
+     }
+ 
+     nav.sidebar .navbar-nav > li:first-child{
+       border-top: 1px #e5e5e5 solid;
+     }
+ 
+     nav.sidebar .navbar-nav > li{
+       border-bottom: 1px #e5e5e5 solid;
+     }
+ 
+     nav.sidebar .navbar-nav .open .dropdown-menu {
+       position: static;
+       float: none;
+       width: auto;
+       margin-top: 0;
+       background-color: transparent;
+       border: 0;
+       -webkit-box-shadow: none;
+       box-shadow: none;
+     }
+ 
+     nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+       padding: 0 0px 0 0px;
+     }
+ 
+     .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+       color: #777;
+     }
+ 
+     nav.sidebar{
+       width: 200px;
+       height: 100%;
+       margin-left: -160px;
+       float: left;
+       margin-bottom: 0px;
+     }
+ 
+     nav.sidebar li {
+       width: 100%;
+     }
+ 
+     nav.sidebar:hover{
+       margin-left: 0px;
+     }
+ 
+     .forAnimate{
+       opacity: 0;
+     }
+   }
+    
+    
+  
+   @media (min-width: 1330px) {
+ 
+     .main{
+       width: calc(100% - 200px);
+       margin-left: 200px;
+     }
+     
+     .main.formu{
+       width: calc(100% - 200px);
+       margin-left: 200px;
+     }
+ 
+     nav.sidebar{
+       margin-left: 0px;
+       float: left;
+     }
+ 
+     nav.sidebar .forAnimate{
+       opacity: 1;
+     }
+   }
+ 
+   nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
+     color: #CCC;
+     background-color: transparent;
+   }
+ 
+   nav:hover .forAnimate{
+     opacity: 1;
+   }
+   section{
+     padding-left: 15px;
+   }
+   
+   
+   
+   
+ PARA SIDEBAR ADMINISTRADOR 
+ 
+ 
+ .perfil{width: 100%;
+         height: 15%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+ }
+ 
+ 
+ .sidebar {width: 200px;
+           position: fixed;
+           height: 80%;
+           background: rgba(255,255,255,0.7);
+           outline: 1px solid  #000;
+           text-align: center;
+           margin:0;
+           top: 0;
+ }
+ 
+ 
+ .sidebar ul{list-style: none;
+             padding: 0px;
+             margin: 0px;}
+ 
+ .sidebar li{outline: 1px solid #000;
+             transition: all 0.7s;}
+ 
+ 
+ .sidebar li:hover{background: rgb(255,255,255);
+                   border-bottom:  10px solid #81BEF7;
+                   }
+ 
+        
+ .sidebar a{color: #000;
+            display: block;
+            padding: 15px;
+            }
+ 
+ .sidebar a:hover {text-decoration: none;}
+
+ 
+ 
+---------------------------------------------------------------------------------*/
+ 
+   
+   
+   
+ ESTILOS BARRA DE NAVEGACIÓN PRINCIPAL  */ 
+   
+  .color-nav { background-color: #e3f2fd;
+     width:100%;
+         
+  }
+  
+  
+  .ancho-ul { width: 100%;
+              display:flex;
+     justify-content: space-around;
+  }
+  
+  .centrar_servicios { display:flex;
+                 justify-content:center;
+  }
+  
+  
+  .fondo_nivel {background-color: #e3f2fd;
+                 border-radius:2px;
+  }
+  
+  
+  .nav-link  { width: 100%; }
+  
+  /*-------------------------------------------------------------------------------------------------------------*/
+  
+  
+
+ /* BARRA DE NAVEGACIÓN PADRE-FAMILIA 
+ 
+ 
+   nav.sidebar, .main{
+     -webkit-transition: margin 200ms ease-out;
+       -moz-transition: margin 200ms ease-out;
+       -o-transition: margin 200ms ease-out;
+       transition: margin 200ms ease-out;
+   }
+   
+   
+   nav.sidebar, .main_formu{
+     -webkit-transition: margin 200ms ease-out;
+       -moz-transition: margin 200ms ease-out;
+       -o-transition: margin 200ms ease-out;
+       transition: margin 200ms ease-out;
+   }
+   
+   
+ 
+   .main{
+     padding: 0px 10px 0 10px;
+   }
+   
+   .main_formu{
+     padding: 0px 10px 0 10px;
+   }
+ 
+ 
+ 
+ @media (min-width: 1200px) {
+ 
+     .main{
+       max-width: 100%;
+     }
+     
+     .main_formu{
+       max-width: 100%;
+     }
+ 
+ }
+ 
+ 
+  @media (min-width: 765px) {
+ 
+     .main{
+       position: absolute;
+       width: calc(100% - 40px); 
+       margin-left: 40px;
+       float: right;
+       top: 0;
+     }
+     
+     .main_formu{
+       position: absolute;
+       width: calc(100% - 40px); 
+       margin-left: 40px;
+       float: right;
+       top: 0;
+     }
+ 
+     nav.sidebar:hover + .main{
+       margin-left: 200px;
+     }
+     
+     nav.sidebar:hover + .main_formu{
+       margin-left: 200px;
+     }
+ 
+     nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+       margin-left: 0px;
+     }
+ 
+     nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+       text-align: center;
+       width: 100%;
+       margin-left: 0px;
+     }
+     
+     nav.sidebar a{
+       padding-right: 13px;
+     }
+ 
+     nav.sidebar .navbar-nav > li:first-child{
+       border-top: 1px #e5e5e5 solid;
+     }
+ 
+     nav.sidebar .navbar-nav > li{
+       border-bottom: 1px #e5e5e5 solid;
+     }
+ 
+     nav.sidebar .navbar-nav .open .dropdown-menu {
+       position: static;
+       float: none;
+       width: auto;
+       margin-top: 0;
+       background-color: transparent;
+       border: 0;
+       -webkit-box-shadow: none;
+       box-shadow: none;
+     }
+ 
+     nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+       padding: 0 0px 0 0px;
+     }
+ 
+     .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+       color: #777;
+     }
+ 
+     nav.sidebar{
+       width: 200px;
+       height: 100%;
+       margin-left: -160px;
+       float: left;
+       margin-bottom: 0px;
+     }
+ 
+     nav.sidebar li {
+       width: 100%;
+     }
+ 
+     nav.sidebar:hover{
+       margin-left: 0px;
+     }
+ 
+     .forAnimate{
+       opacity: 0;
+     }
+   }
+    
+    
+
+   @media (min-width: 1330px) {
+ 
+     .main{
+       width: calc(100% - 200px);
+       margin-left: 200px;
+     }
+     
+     .main.formu{
+       width: calc(100% - 200px);
+       margin-left: 200px;
+     }
+ 
+     nav.sidebar{
+       margin-left: 0px;
+       float: left;
+     }
+ 
+     nav.sidebar .forAnimate{
+       opacity: 1;
+     }
+   }
+ 
+   nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
+     color: #CCC;
+     background-color: transparent;
+   }
+ 
+   nav:hover .forAnimate{
+     opacity: 1;
+   }
+   section{
+     padding-left: 15px;
+   }
+    */
+    
+
+ /*PARA SIDEBAR ADMINISTRADOR 
+ 
+ 
+ .perfil{width: 100%;
+         height: 300px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+ }
+ 
+ 
+ .sidebar {width: 200px;
+           position: fixed;
+           height: 100%;
+           background: rgba(255,255,255,0.7);
+           outline: 1px solid  #000;
+           text-align: center;
+           margin:0;
+           top: 0;
+ }
+ 
+ 
+ .sidebar ul{list-style: none;
+             padding: 0px;
+             margin: 0px;}
+ 
+ .sidebar li{outline: 1px solid #000;
+             transition: all 0.7s;}
+ 
+ 
+ .sidebar li:hover{background: rgb(255,255,255);
+                   border-bottom:  10px solid #81BEF7;
+                   }
+ 
+        
+ .sidebar a{color: #000;
+            display: block;
+            padding: 15px;
+            }
+ 
+ .sidebar a:hover {text-decoration: none;}
+  
+ 
+/* ----------------------------------------------------------------------------------*/
+ 
+ 
+  /*         PAGINACIÓN         */ 
+
+
+  .page-item a:hover {text-decoration: none;}
+
+  .pagi:hover{background: #81BEF7;
+              color: #fff;
+              border-radius: 2px;}
+
+  .pagi:focus{outline:none;
+              background: #81BEF7;
+              color: #fff;}
+
+  .paginacion-base {border-bottom: 1px dotted #000;
+                    width: 100%;
+                    height: 77px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;}
+
+  /*--------------------------------------------------------------------------------*/
+  
+  
+              
+  /* para centrar en cualquier div */
+
+  .centro{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;}
+
+
+
+.centenr-diloviu{
+  text-align: center;
+    }
+
+
+
+
+
+
+
+    
+/*CONTACTO*/
+
+.footer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer h4{
+  font-weight: 400;
+  letter-spacing: 1.2px;
+}
+
+
+.footer h4:after{
+  content: '';
+  display: block; 
+  width: 100%;
+  height: 3px;
+  border: 0;
+  background: #54a7c0;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container *{
+  box-sizing: border-box;
+}
+
+.flex-outer,
+.flex-inner{
+  list-style-type: none;
+  padding: 0;
+}
+
+.flex-outer{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flex-outer li,
+.flex-inner{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-inner{
+  padding: 0 8px;
+  justify-content: space-between;  
+}
+
+.flex-outer > li:not(:last-child){
+  margin-bottom: 20px;
+}
+
+.flex-outer li label{
+  padding: 8px;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.flex-outer > li > label{
+  flex: 1 0 120px;
+  max-width: 220px;
+}
+
+.flex-outer > li > label + *,
+.flex-inner{
+  flex: 1 0 220px;
+}
+
+.flex-outer li input:not([type='checkbox']),
+.flex-outer li textarea{
+  padding: 15px;
+  resize: none;
+}
+
+.flex-outer li button{
+  background: 0 0 #FEFFFF;
+  border: 1px solid #6D85A8;
+  border-radius: 3px;
+  color: #6D85A8;
+  font-size: 16px;
+  line-height: inherit;
+  margin: 30px 0;
+  padding: 10px 50px;
+  text-transform: uppercase;
+  transition: all 0.25s ease 0s;
+}
+
+.flex-outer li button:hover,
+.flex-outer li button:active,
+.flex-outer li button:focus {
+    border-color: #299FFF;
+    color: #299FFF;
+}
+
+.flex-inner li{
+  width: 100px;
+}
+
+.rect{
+    border-color: #6D85A8;
+  border-width: 0 0 1px 0;
+  border-style: none none solid none;
+  box-shadow: none;
+}
+
+.rect:focus{
+    box-shadow: none;
+    border-color: #60A9F1;
+  outline: none;
+}
+
+
+.center{
+  width: 95%;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+.flex-outer li ::placeholder{
+  font-size: 12px;
+  color: #6D85A8;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.flex-outer li ::-webkit-input-placeholder{
+  font-size: 12px;
+  color: #6D85A8;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.flex-outer li ::-moz-placeholder{
+  font-size: 12px;
+  color: #6D85A8;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.flex-outer li ::-ms-input-placeholder{
+  font-size: 12px;
+  color: #6D85A8;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.flex-outer li ::-moz-placeholder{
+  font-size: 12px;
+  color: #6D85A8;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+input{
+  font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width: 950px){
+  .portafolio-container{
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  
+  .portafolio-item{width: 80%; margin-top: 10px;}
+}
+
+@media screen and (max-width: 950px){
+  .photo p{width: 90%;}
+  .grand-title{width: 90%;}
+  .text{flex-direction: column;}
+  .inner-content{flex-flow: column wrap;}
+  .boxy:nth-child(1),.boxy:nth-child(2){width: 90%;}/*GENERA PROBLEMA*/
+  .boxy:nth-child(1){padding: 10px;}
+  #slider{margin-left: -55px;}
+}
+
+@media only screen and (max-width: 600px){
+  label{
+    display: block;
+    cursor: pointer;
+  }
+  .menu{
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+  .menu a{
+    display: block;
+    border-bottom: 1px solid #EAEAEB;
+    margin: 0;
+    color: #6D85A8;
+  }
+  #toggle:checked + .menu{display: block; background-color: #FEFFFF;}
+}
+
+@media screen and (max-width: 500px){
+  #slider{margin-left: -55px;}
+  .inner-text{width: 80%;}
+  
+}
+
+@keyframes slider{
+  0%{left: 0; opacity: 0;}
+  20%{left: 0; opacity: 1;}
+  25%{left: -100%; opacity: .8;}
+  45%{left: -100%; opacity: .8;}
+  50%{left: -200%; opacity: .7;}
+  70%{left: -200%; opacity: .7;}
+  75%{left: -300%; opacity: .6;}
+  95%{left: -400%; opacity: .6;}
+  100%{left: -400%; opacity: 1;}
+}

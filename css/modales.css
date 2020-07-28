@@ -1,0 +1,157 @@
+
+
+
+/*  MODAL PARA VER DETALLE EN CUALQUIER TABLA   */
+
+.base{
+    width: 100%;
+    height: auto;
+    margin: auto;}
+
+.base .list-datos {padding:  0px;
+                    display: flex;
+                   flex-wrap:wrap;
+                   justify-content: center;}
+                      
+.base .list-datos .dato-individual {margin-right: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border-bottom: 2px double #000;}
+
+
+.logo-detalle{width: 100%;
+            text-align: center;}
+
+.logo-detalle img{width: 30%;}
+
+
+.body-detalle { margin: auto;
+        width: 95%;
+        border-bottom: 2px solid #000;
+        border-top: 2px solid #000;
+        background-color:rgba(255,255,255,0.5);
+        }
+
+.fondo-detalle{ background-image: url(../img/nuevofondo.jpg); }
+
+
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+.modal-contetransparente {background-color: rgba(255,255,255,0.5);
+                          border-radius: 15px;}
+
+/*------------------------------------------------*/
+
+
+
+
+
+
+
+ /*  VENTANA MODAL FORMULARIO EN GENERAL */
+ 
+ 
+ .conteni_formu{width: 100%;
+    position: absolute;
+    background: transparent;
+    border-radius: 15px;
+    padding: 30px;
+    box-sizing: border-box;
+    transition: all 1s;
+
+}
+
+
+.foto_formulario { width: 100%;
+                text-align: center;}
+
+
+
+
+.foto_formulario img{width: 15%;}
+
+
+.body-formulario { margin: auto;
+        width: 95%;
+        border-bottom: 2px solid #000;
+        border-top: 2px solid #000;
+        }
+
+.filasFormu{
+width:100%;
+display:flex;
+flex-flow:row nowrap;
+}
+
+
+.input-group{
+margin:10px 1.5%;
+}
+
+.input-group-addon{
+background:#81BEF7;
+color:#fff;
+border:7px solid #81BEF7;
+border-radius: 15px 0px 15px 0px;
+font-weight: bold;
+
+}
+
+.modal-footer{ display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------------------*/
+
+
+
+ /* TITULOS , MODALES FORMULARIOS  */ 
+
+ 
+ .con-titulo {border-bottom: 1px dotted #000;
+    border-top: 1px dotted #000;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background:rgba(255, 255, 255,0.7);}
+
+
+.tituloFormu {margin: auto;
+     width: 95%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;} 
+
+
+
+.parrafoFurmu{
+display:block;
+text-align:center;
+margin-bottom:15px;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+
+
